@@ -4,7 +4,7 @@ import os
 import sys
 
 
-# Main method that contains exception handling logic to avoid runtime errors
+# Main method that contains exception handling logic to avoid runtime error
 def main():
     """Run administrative tasks."""
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'crm_project.settings')
