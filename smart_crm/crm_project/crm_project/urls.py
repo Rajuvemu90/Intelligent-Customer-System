@@ -18,6 +18,8 @@ from django.contrib import admin
 from django.urls import path
 from leads import views
 
+
+# Route handling - All the necesaary url endpoints 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('dashboard/',views.dashboard,name='dashboard'),
